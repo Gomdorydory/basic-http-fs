@@ -1,0 +1,13 @@
+{
+  "extends": "apostrophe",
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn"
+        ]
+      }
+    ]
+  }
+}

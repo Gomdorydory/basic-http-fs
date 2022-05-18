@@ -1,0 +1,95 @@
+:root {
+  margin: 0 auto;
+  padding: 0;
+  background-color: pink;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header>article {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+a {
+  background-color: gray;
+  font-size: 2vh;
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+}
+
+.maintitle {
+  background-color: white;
+  font-size: 3vh;
+}
+
+#enroll{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3vh;
+}
+
+#note{
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  height: 100%;
+  margin: 1vh;
+}
+
+#note>article{
+  background-color: red;
+}
+#noteL {
+  display: flex;
+  width: 30%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+#noteR {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.noteBox {
+  background-color: white;
+  border-radius: 1VH;
+  font-size: 2vh;
+  white-space:pre-line;
+}
+
+input {
+  font-size: 3vh;
+}
+
+textarea {
+  font-size: 3vh;
+}
+
+#note1,#note2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 100%
+}
+
+#note3,#note4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

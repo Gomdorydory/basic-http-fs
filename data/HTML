@@ -1,0 +1,11 @@
+  <content id="note">
+    <div id="noteL">
+      <article id="note1" class="noteBox">단어</article>
+      <article id="note2" class="noteBox">단어뜻</article>
+    </div>
+    <div id="noteR">
+      <article id="note3" class="noteBox">예문
+      </article>
+      <article id="note4" class="noteBox">출처</article>
+    </div>
+  </content>
